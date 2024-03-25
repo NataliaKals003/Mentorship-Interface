@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    /* width: 736px; */
+    margin: auto;
+    width: 50%;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+body,
+input,
+header p {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+header {
+    margin-top: 140px;
+    color: #FFFFFF;
+}
+
+header h1 {
+    font-family: "Staatliches", sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+header p {
+    font-size: 20px;
+    /* width: 417px; */
+    width: 60%;
+}
+
+form {
+    margin-top: 46px;
+    background: #FFFFFF;
+    min-height: 300px;
+    border-radius: 8px 8px 0 0;
+    padding: 64px;
+    gap: 30px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #535971;
+    width: 100%;
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+}
+
+fieldset .margin {
+    margin-top: 32px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-wrapper label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.input-wrapper label span {
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+    margin-left: 7px;
+}
+
+.input-wrapper label span:hover {
+    /*ACCESSIBILITY */
+    color: #6c6a71;
+}
+
+.col-2 {
+    display: flex;
+    gap: 22px;
+}
+
+.input-wrapper input {
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 56px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6a71;
+}
+
+.fieldset-wrapper h1 {
+    color: #535971;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 0;
+}
+
+.fieldset-wrapper h1:nth-of-type(2) {
+    margin-top: 16px;
+}
+
+.date {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 16px;
+}
+
+.timer {
+    display: flex;
+    gap: 10px;
+}
+
+footer {
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    background: #535971;
+    padding: 40px 64px;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 100px;
+}
+
+button {
+    height: 55px;
+    background: #FF5374;
+    border: 0;
+    border-radius: 20px;
+    font-family: "Staatliches", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+button:hover{
+    background: #ed264e;
+}
